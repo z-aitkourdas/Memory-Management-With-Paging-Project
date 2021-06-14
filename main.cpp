@@ -2,7 +2,6 @@
 #include <iostream>
 
 void afficherMenu();
-void afficherGroupe();
 
 int main(int argc, char** argv) {
     Pagination memoireCentrale(25);
@@ -10,7 +9,6 @@ int main(int argc, char** argv) {
     int option(0);
 
     system("CLS");
-    afficherGroupe();
     system("pause");
     do {
         system("CLS");
@@ -155,18 +153,6 @@ int main(int argc, char** argv) {
     } while (option != 8);
 
     return 0;
-}
-
-void afficherGroupe() {
-    std::cout << " -----------------------" << std::endl;
-    std::cout << "|\t Goupe 3\t|" << std::endl;
-    std::cout << " -----------------------" << std::endl;
-    std::cout << "| -Asmae AJERD\t\t|" << std::endl;
-    std::cout << "| -Imane AOUA\t\t|" << std::endl;
-    std::cout << "| -Zouhair AIT KOURDAS\t|" << std::endl;
-    std::cout << "| -Douae DANI\t\t|" << std::endl;
-    std::cout << "| -Abdelbadia OUALABACH\t|" << std::endl;
-    std::cout << " -----------------------" << std::endl;
 }
 
 void afficherMenu() {
